@@ -48,7 +48,7 @@ from datetime import datetime
 filename="record.txt"
 with open(filename,"a") as file:
     while True:
-        user_input=input("plese let us know what you have learnt today:\n(or type exit to quit):\n")
+        user_input=input("please let us know what you have learnt today:\n(or type exit to quit):\n")
         if user_input=="exit":
             print("Exiting and saving all records")
             break
